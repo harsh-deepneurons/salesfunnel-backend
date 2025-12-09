@@ -12,7 +12,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "dependencies": {
     "@aws-sdk/client-bedrock-agent": "^3.940.0",
     "@aws-sdk/client-bedrock-agent-runtime": "^3.940.0",
