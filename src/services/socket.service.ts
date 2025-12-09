@@ -1,9 +1,9 @@
 import WebSocket from 'ws';
 import mongoose from 'mongoose';
-import { AgentModel, type IAgent } from '../../shared/models.ts';
-import { BrainService } from '../../services/llm_brain.ts';
-import { type TTSProvider, PollyProvider, ElevenLabsProvider } from '../../services/tts_service.ts';
-import { TranscribeService } from './transcribe.service.ts';
+import { AgentModel, type IAgent } from '../../shared/models';
+import { BrainService } from '../../services/llm_brain';
+import { type TTSProvider, PollyProvider, ElevenLabsProvider } from '../../services/tts_service';
+import { TranscribeService } from './transcribe.service';
 
 // --- UTILITIES: AUDIO CONVERSION (μ-law to PCM) ---
 const muLawToPcm = (muLawBuffer: Buffer): Buffer => {
