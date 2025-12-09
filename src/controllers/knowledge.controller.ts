@@ -1,7 +1,7 @@
 import type { Request, Response } from 'express';
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
 import process from 'process';
-import { KnowledgeBaseModel } from '../../shared/models.ts';
+import { KnowledgeBaseModel } from '../../shared/models';
 
 const s3Client = new S3Client({ region: process.env.AWS_REGION });
 

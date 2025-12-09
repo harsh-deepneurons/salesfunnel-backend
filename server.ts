@@ -11,12 +11,12 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import process from 'process';
 
-import { connectToDatabase } from './database.ts';
-import { SocketService } from './src/services/socket.service.ts';
+import { connectToDatabase } from './database';
+import { SocketService } from './src/services/socket.service';
 
-import agentRoutes from './src/routes/agent.routes.ts';
-import knowledgeRoutes from './src/routes/knowledge.routes.ts';
-import telephonyRoutes from './src/routes/telephony.routes.ts';
+import agentRoutes from './src/routes/agent.routes';
+import knowledgeRoutes from './src/routes/knowledge.routes';
+import telephonyRoutes from './src/routes/telephony.routes';
 
 dotenv.config();
 

@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import { AgentModel } from './shared/models.ts';
-import { connectToDatabase } from './database.ts';
+import { AgentModel } from './shared/models';
+import { connectToDatabase } from './database';
 
 dotenv.config();
 

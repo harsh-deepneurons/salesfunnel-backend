@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { AgentController } from '../controllers/agent.controller.ts';
+import { AgentController } from '../controllers/agent.controller';
 
 const router = Router();
 

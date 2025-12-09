@@ -1,5 +1,5 @@
 import type { Request, Response } from 'express';
-import { AgentModel } from '../../shared/models.ts';
+import { AgentModel } from '../../shared/models';
 
 export class AgentController {
     static async createAgent(req: Request, res: Response) {

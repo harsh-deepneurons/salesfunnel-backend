@@ -1,5 +1,5 @@
 import type { Request, Response } from 'express';
-import { AgentModel } from '../../shared/models.ts';
+import { AgentModel } from '../../shared/models';
 
 export class TelephonyController {
   static async listNumbers(req: Request, res: Response) {

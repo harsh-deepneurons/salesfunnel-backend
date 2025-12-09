@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import multer from 'multer';
-import { KnowledgeController } from '../controllers/knowledge.controller.ts';
+import { KnowledgeController } from '../controllers/knowledge.controller';
 
 const router = Router();
 const upload = multer();

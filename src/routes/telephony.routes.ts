@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { TelephonyController } from '../controllers/telephony.controller.ts';
+import { TelephonyController } from '../controllers/telephony.controller';
 
 const router = Router();
 
