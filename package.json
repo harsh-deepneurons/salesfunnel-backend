@@ -1,0 +1,40 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-agent": "^3.940.0",
+    "@aws-sdk/client-bedrock-agent-runtime": "^3.940.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.946.0",
+    "@aws-sdk/client-polly": "^3.940.0",
+    "@aws-sdk/client-s3": "^3.940.0",
+    "@aws-sdk/client-transcribe-streaming": "^3.940.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-ws": "^5.0.2",
+    "mongoose": "^9.0.0",
+    "multer": "^2.0.2",
+    "twilio": "^5.10.7",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/express-ws": "^3.0.6",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24.10.1",
+    "@types/ws": "^8.18.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
